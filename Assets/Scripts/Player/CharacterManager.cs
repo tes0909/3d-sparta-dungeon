@@ -16,7 +16,7 @@ public class CharacterManager : MonoBehaviour
         }
     }
 
-    public Player player;
+    private Player player;
 
     public Player Player
     {
@@ -25,14 +25,14 @@ public class CharacterManager : MonoBehaviour
     }
     private void Awake()
     {
-       if(instance = null)
+       if(instance == null)
        {
             instance = this;
             DontDestroyOnLoad(gameObject);
        }
        else
        {
-            if(instance = this)
+            if(instance != this)
             {
                 Destroy(gameObject);
             }

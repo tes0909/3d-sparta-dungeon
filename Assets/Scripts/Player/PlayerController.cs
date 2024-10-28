@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody>();
-        Debug.Log(LayerMask.LayerToName(groundLayerMask.value));
     }
 
     private void Start()
@@ -96,8 +95,6 @@ public class PlayerController : MonoBehaviour
 
         for (int i = 0; i < rays.Length; i++)
         {
-            Color rayColor = Physics.Raycast(rays[i], 0.1f, groundLayerMask) ? Color.green : Color.red;
-            Debug.DrawRay(rays[i].origin, rays[i].direction * 0.1f, rayColor);
             if (Physics.Raycast(rays[i], 0.1f, groundLayerMask))
             {
                 return true;
