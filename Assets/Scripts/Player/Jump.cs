@@ -23,7 +23,5 @@ public class Jump : MonoBehaviour
                 rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
             }
         }
-
-       
     }
 }
