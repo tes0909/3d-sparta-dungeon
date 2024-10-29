@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 640d271f01c729c46ac2c0682947ed5c, type: 3}
-  m_Name: Item_Carrot
+  m_Name: "\uB2F9\uADFC"
   m_EditorClassIdentifier: 
   displayName: "\uB2F9\uADFC"
   description: "\uCCB4\uB825\uACFC \uBC30\uACE0\uD514\uC744 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
@@ -19,4 +19,8 @@ MonoBehaviour:
   dropPrefab: {fileID: 143133821166352706, guid: 84193436fd8fdd94ab8554eb7b71b22d, type: 3}
   canStack: 1
   maxStackAmount: 12
-  consumalbes: []
+  consumalbes:
+  - type: 1
+    value: 10
+  - type: 0
+    value: 20

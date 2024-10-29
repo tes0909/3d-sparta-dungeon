@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 640d271f01c729c46ac2c0682947ed5c, type: 3}
-  m_Name: Item_Sword
+  m_Name: "\uAC80"
   m_EditorClassIdentifier: 
   displayName: "\uAC80"
   description: "\uACF5\uACA9\uC6A9 \uAC80 \uC785\uB2C8\uB2E4."
