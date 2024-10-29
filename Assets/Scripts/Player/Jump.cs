@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-    public float jumpPower = 50.0f;
+    public float jumpPower = 200.0f;
+
+    private void Start()
+    {
+        Renderer renderer = GetComponent<Renderer>();
+        renderer.material.color = Color.green;
+    }
     private void OnCollisionEnter(Collision collision)
     {
 
